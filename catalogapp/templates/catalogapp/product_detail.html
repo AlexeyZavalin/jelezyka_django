@@ -1,0 +1,22 @@
+{% extends 'catalogapp/base.html' %}
+{% load catalog_templatetags %}
+
+{% block content %}
+{% if user.is_authenticated and user.is_superuser  %}
+<div class="admin-panel">
+    <a href="/admin/catalogapp/product/{{object.id}}/change/?destination={{ request.get_full_path }}">Редактировать</a>
+    <a href="#">Удалить</a>
+</div>
+{% endif %}
+<div class="container">
+    {{ object.name }}
+    {{ object.price|price_format }}
+    {{ object.brand }}
+    {{ object.description|safe }}
+    <form id="{{object.id}}">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input type="submit" value="Добавить">
+    </form>
+</div>
+{% endblock %}

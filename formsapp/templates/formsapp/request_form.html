@@ -1,0 +1,5 @@
+<form id="request">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Заказать</button>
+</form>

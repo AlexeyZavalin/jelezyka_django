@@ -1,0 +1,81 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html, body {
+  position: relative;
+  min-height: 100%;
+}
+
+.block {
+  margin-bottom: 40px;
+  &.nomargin {
+    margin-bottom: 0;
+  }
+  &_nomargin {
+    margin-bottom: 0;
+  }
+}
+
+.wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.oh {
+  flex-grow: 1;
+}
+
+.clearfix() {
+  *zoom: 1;
+  &:before,
+  &:after {
+    display: table;
+    content: "";
+    // Fixes Opera/contenteditable bug:
+    // http://nicolasgallagher.com/micro-clearfix-hack/#comment-36952
+    line-height: 0;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+.footer-wrapper {
+  //position: absolute;
+  //bottom: 0;
+  //width: 100%;
+  //clear: both;
+}
+
+.f {
+  display: flex;
+  &_w {
+    flex-wrap: wrap;
+  }
+  &_dc {
+    flex-direction: column;
+  }
+  &_sb {
+    justify-content: space-between;
+  }
+  &_sa {
+    justify-content: space-around;
+  }
+  &_jc {
+    justify-content: center;
+  }
+  &_ac {
+    align-items: center;
+  }
+}

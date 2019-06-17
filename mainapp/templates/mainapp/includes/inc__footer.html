@@ -1,0 +1,56 @@
+{% load forms_templatetags %}
+
+<div class="footer-wrapper">
+    <div class="container">
+        <img class="fw-back" src="" alt="">
+        <div class="subscribe-form-back"></div>
+        <div class="subscribe-form">
+            <div class="row middle-xs">
+                <div class="col-12 col-md-7 sf-label">
+                    Подпишитесь на скидки и акции
+                </div>
+                <div class="col-12 col-md-5 sf-form">
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="row">
+                <div class="col-sm-4">
+                </div>
+                <div class="col-sm-8">
+                        <div class="footer-menu">
+                        </div>
+                </div>
+            </div>
+            <div class="bottombar">
+                <div class="row middle-xs">
+                    <div class="col-xs-5"></div>
+                    <div class="col-xs-2">
+                        <div class="socials">
+                            <a href="https://www.instagram.com/jeleziaka/" class="s-item">
+                                <i class="icon icon-instagram"></i>
+                            </a>
+                            <a href="https://vk.com/jeleziaka27" class="s-item">
+                                <i class="icon icon-vkontakte"></i>
+                            </a>
+                            <a href="https://ok.ru/group/54469516132543" class="s-item">
+                                <i class="icon icon-odnoklassniki"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xs-5 ml-auto copyright"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> <!--footer-wrapper-end-->
+<div class="remodal" data-remodal-id="callme"
+     data-remodal-options="hashTracking: false">
+    <button data-remodal-action="close" class="remodal-close"></button>
+    {% call_me_form %}
+</div>
+<div class="remodal" data-remodal-id="service"
+     data-remodal-options="hashTracking: false">
+    <button data-remodal-action="close" class="remodal-close"></button>
+    {% register_form %}
+</div>

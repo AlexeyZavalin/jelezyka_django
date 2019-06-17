@@ -1,0 +1,30 @@
+{% extends 'mainapp/base.html' %}
+{% load static from staticfiles %}
+
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8">
+            <div class="swiper-container swiper-main">
+                <div class="swiper-wrapper">
+                    {% for slide in slides %}
+                    <div class="swiper-slide">
+                        {% if slide.link %}
+                        <a href="#" class="swiper-link">
+                            <img src="/media/{{ slide.background }}" alt="">
+                        </a>
+                        {% else %}
+                        <img src="/media/{{ slide.background }}" alt="">
+                        {% endif %}
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+
+        </div>
+    </div>
+</div>
+{% endblock %}

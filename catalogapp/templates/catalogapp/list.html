@@ -1,0 +1,23 @@
+{% load mptt_tags %}
+{% if location == 'header' %}
+<ul class="taxonomy-tree">
+    {% recursetree catalog %}
+    <li class="taxonomy-term">
+        <a href="{% url 'catalog:category-products' node.slug %}">{{ node.name }}</a>
+        {% if not node.is_leaf_node %}
+        <ul class="taxonomy-tree">
+            {{ children }}
+        </ul>
+        {% endif %}
+    </li>
+    {% endrecursetree %}
+</ul>
+{% else %}
+<div class="categories">
+    {% recursetree catalog %}
+    <div class="catalog-category">
+        <a href="{% url 'catalog:category-products' node.slug %}">{{ node.name }}</a>
+    </div>
+    {% endrecursetree %}
+</div>
+{% endif %}

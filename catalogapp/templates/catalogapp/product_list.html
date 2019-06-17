@@ -1,0 +1,63 @@
+{% extends 'catalogapp/base.html' %}
+{% load catalog_templatetags %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-lg-3">
+            {{ min }}&nbsp;&mdash;&nbsp;{{ max }}
+            {% catalog_list 'sidebar' 0 cid %}
+            <form action="" method="get"></form>
+        </div>
+        <div class="col-lg-9">
+            <div class="catalog">
+                <div class="row">
+                    {% for object in object_list %}
+                    <div class="col-xl-4 col-md-6 col-12">
+                        <a href="{% url 'catalog:product-detail' object.category.slug object.slug %}"
+                           class="c-item c-item_grid">
+                            <div class="ci-top">
+                                <div class="ci-img-wrapper">
+                                    <img src="/media/{{ object.image }}" alt="{{ object.name }}">
+                                </div>
+                                <div class="ci-title">
+                                    {{ object.name }}
+                                </div>
+                            </div>
+                            <div class="ci-bottom">
+                                <div class="price">{{ object.price|price_format }}</div>
+                                <div data-remodal-target="addtobasket-{{ object.id }}" class="add_to_basket">
+                                    В корзину
+                                </div>
+                            </div>
+                            <span class="ci__labels">
+                        <span class="ci__labels-item">{{ object.brand }}</span>
+                        <span class="ci__labels-item">{{ object.vendor }}</span>
+                    </span>
+                        </a>
+                    </div>
+
+                    <div class="remodal remodal_add" id="addtobasket-{{ object.id }}"
+                         data-remodal-id="addtobasket-{{ object.id }}"
+                         data-remodal-options="hashTracking: false">
+                        <button data-remodal-action="close" class="remodal-close"></button>
+                        <div class="add-form-title">{{ object.name }}</div>
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <img src="/media/{{ object.image }}" alt="{{ object.name }}">
+                            </div>
+                            <div class="col-sm-10">
+                                <form id="product-add-{{object.id}}">
+                                    {% csrf_token %}
+                                    <input type="submit" class="mr_sb_big_button form-submit" value="Добавить">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
