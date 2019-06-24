@@ -14,8 +14,26 @@
     {{ object.brand }}
     {{ object.description|safe }}
     <form id="{{object.id}}">
-        {% csrf_token %}
-        {{ form.as_p }}
+        <div class="stocks">
+            {% for stock in stocks %}
+            {% if stock.count > 0 %}
+            <fieldset>
+                <div class="fieldset-wrapper">
+                    <div class="form-item">
+                        <input type="checkbox" id="stock-{{stock.stock.id}}">
+                        <label for="stock-{{stock.stock.id}}">{{ stock.stock.address }}</label>
+                    </div>
+                    <div class="amount">На складе: {{ stock.count }} шт.</div>
+                    <div class="form-item">
+                        <input type="number" max="{{ stock.count }}" min="1">
+                    </div>
+                </div>
+            </fieldset>
+            {% endif %}
+            {% endfor %}
+        </div>
+        <!--        {#% csrf_token %#}-->
+        <!--        {{ form.as_p }}-->
         <input type="submit" value="Добавить">
     </form>
 </div>
