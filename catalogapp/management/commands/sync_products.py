@@ -54,10 +54,13 @@ def create_update_product(product):
     load_product = Product.objects.filter(key=product['xml_id']).first()
     price = re.sub(r',', '.', product['price'])
     if load_product:
-        load_product.name = product['title']
-        load_product.vendor = product['vendor']
-        load_product.price = price
-        load_product.category = Category.objects.filter(key=product['category']).first()
+        if product['delete_marker'] == '0':
+            load_product.is_active = False
+        else:
+            load_product.name = product['title']
+            load_product.vendor = product['vendor']
+            load_product.price = price
+            load_product.category = Category.objects.filter(key=product['category']).first()
         load_product.save()
         return load_product
     else:
