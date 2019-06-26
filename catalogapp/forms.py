@@ -10,7 +10,7 @@ class AddForm(forms.Form):
         for stock_item in stocks:
             count = 'count_%s' % (stock_item.stock.key,)
             choose = 'choose_%s' % (stock_item.stock.key,)
-            address = 'address_%s' % (stock_item.stock.address)
+            address = stock_item.stock.address
             self.fields[choose] = forms.BooleanField()
             self.fields[address] = forms.CharField()
             self.fields[count] = forms.IntegerField(required=True, initial=1, max_value=stock_item.count, min_value=1)

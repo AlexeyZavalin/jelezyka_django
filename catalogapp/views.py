@@ -1,5 +1,4 @@
-from django.shortcuts import render, get_object_or_404, HttpResponseRedirect
-from django.urls import reverse
+from django.shortcuts import render, get_object_or_404
 from catalogapp.models import Category, Product, StockProduct
 from django.db.models import Max, Min
 
@@ -7,6 +6,8 @@ from django.views.generic.list import ListView
 from django.views.generic.detail import DetailView
 
 from catalogapp.forms import AddForm
+
+from .filters import ProductFilter
 
 
 class ProductsListView(ListView):
@@ -29,6 +30,7 @@ class ProductsListView(ListView):
     def get_context_data(self, **kwargs):
         """ Получаем id категории + минимальную и максимальную цену категории включая дочерние """
         context = super().get_context_data(**kwargs)
+        context['filter'] = ProductFilter(self.request.GET, queryset=self.get_queryset())
         category = Category.objects.filter(slug=self.kwargs['slug']).first()
         products = self.get_category_products(self, category)
         context['cid'] = category.id
