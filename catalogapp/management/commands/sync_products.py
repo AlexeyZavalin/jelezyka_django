@@ -91,9 +91,9 @@ class Command(BaseCommand):
     help = 'Синхронизация товаров и категорий'
 
     def handle(self, *args, **options):
-        # categories = load_from_xml(JSON_PATH + '/categories.xml')
-        # for category in categories:
-        #     create_update_category(category)
+        categories = load_from_xml(JSON_PATH + '/categories.xml')
+        for category in categories:
+            create_update_category(category)
 
         stocks = Stock.objects.all()
         products = load_from_json('products')
