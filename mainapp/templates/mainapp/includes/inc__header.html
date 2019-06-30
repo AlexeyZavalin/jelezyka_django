@@ -59,9 +59,9 @@
                             {{ user.username }}
                         </a>
                         {% else %}
-                        <a href="login">Вход</a>
+                        <a href="{% url 'auth:login' %}">Вход</a>
                         /
-                        <a href="register">Регистрация</a>
+                        <a href="{% url 'auth:register' %}">Регистрация</a>
                         {% endif %}
                     </div>
                 </div>

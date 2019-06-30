@@ -1,0 +1,35 @@
+{% load static %}
+
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    {% block css %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    {% endblock %}
+    {% block js %}
+    <script src="{% static 'js/main.js' %}"></script>
+    {% endblock %}
+    {% block title %}
+    <title>Железяка &mdash; запчасти & сервис</title>
+    {% endblock %}
+</head>
+{% if user.is_superuser %}
+<body class="admin">
+<div class="admin-menu">
+    <a href="/admin">Перейти в панель</a>
+</div>
+{% else %}
+<body>
+{% endif %}
+<div class="wrapper page">
+    <main class="content">
+        {% block content %}
+        {% endblock %}
+    </main>
+</div>
+</body>
+</html>
