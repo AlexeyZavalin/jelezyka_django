@@ -1,5 +1,4 @@
-from django.shortcuts import render, get_object_or_404, HttpResponseRedirect
-from django.urls import reverse
+from django.shortcuts import get_object_or_404
 from catalogapp.models import Category, Product, StockProduct
 from django.db.models import Max, Min
 
@@ -22,9 +21,20 @@ class ProductsListView(ListView):
         return products
 
     def get_queryset(self):
+        order = 'price'
+        if 'order_by' in self.request.GET:
+            if self.request.GET['order_by'] == 'price_desc':
+                order = '-price'
+            else:
+                order = 'price'
         category = get_object_or_404(Category, slug=self.kwargs['slug'])
-        products = self.get_category_products(self, category).order_by('price')
+        products = self.get_category_products(self, category).order_by(order)
         return products
+
+    def get_paginate_by(self, queryset):
+        if 'paginate_by' in self.request.GET:
+            self.paginate_by = int(self.request.GET['paginate_by'])
+        return self.paginate_by
 
     def get_context_data(self, **kwargs):
         """ Получаем id категории + минимальную и максимальную цену категории включая дочерние """
@@ -43,6 +53,8 @@ class ProductDetailView(DetailView):
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         product = get_object_or_404(Product, slug=self.kwargs['slug'])
+        stocks = StockProduct.objects.filter(product=product)
         add_form = AddForm(product_id=product.id)
         context['form'] = add_form
+        context['stocks'] = stocks
         return context

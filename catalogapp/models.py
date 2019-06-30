@@ -1,9 +1,55 @@
 from django.db import models
 from mptt.models import MPTTModel, TreeForeignKey
+from django.utils.text import slugify
+
+
+def transliterate(word):
+    """:return Транслитерированное слово на кириллице"""
+    ru_en_alphabet = {
+        'а': 'a',
+        'б': 'b',
+        'в': 'v',
+        'г': 'g',
+        'д': 'd',
+        'е': 'e',
+        'ё': 'yo',
+        'ж': 'zh',
+        'з': 'z',
+        'и': 'i',
+        'к': 'k',
+        'л': 'l',
+        'м': 'm',
+        'н': 'n',
+        'о': 'o',
+        'п': 'p',
+        'р': 'r',
+        'с': 's',
+        'т': 't',
+        'у': 'u',
+        'ф': 'f',
+        'х': 'h',
+        'ц': 'c',
+        'ч': 'ch',
+        'ш': 'sh',
+        'ы': 'y',
+        'э': 'e',
+        'ю': 'u',
+        'я': 'ya',
+        'ь': '',
+        'ъ': ''
+    }
+    symbols_ru = list(word.lower())
+    symbols_en = []
+    for symbol in symbols_ru:
+        if symbol in ru_en_alphabet:
+            symbols_en.append(ru_en_alphabet[symbol])
+        else:
+            symbols_en.append(symbol)
+    return ''.join(symbols_en)
 
 
 class Category(MPTTModel):
-    name = models.CharField(max_length=150, unique=True, verbose_name='Наименование категории')
+    name = models.CharField(max_length=255, verbose_name='Наименование категории')
     key = models.CharField(max_length=30, unique=True, verbose_name='Идентификатор категории')
     slug = models.SlugField(max_length=128, unique=True, default='')
     parent = TreeForeignKey('self', on_delete=models.CASCADE, null=True, blank=True, related_name='children',
@@ -11,6 +57,16 @@ class Category(MPTTModel):
 
     def __str__(self):
         return f'{self.name} | {self.key}'
+
+    def save(self, *args, **kwargs):
+        new_slug = slugify(transliterate(str(self.name)))
+        categories = Category.objects.filter(slug__regex=r'^' + new_slug)
+        if not self.id:
+            if categories.count() == 0:
+                self.slug = new_slug
+            else:
+                self.slug = new_slug + '-' + str(categories.count())
+        super().save(*args, **kwargs)
 
     class MPTTMeta:
         level_attr = 'level'
@@ -50,6 +106,16 @@ class Product(models.Model):
 
     def __str__(self):
         return f'{self.name} | {self.category} | {self.key}'
+
+    def save(self, *args, **kwargs):
+        new_slug = slugify(transliterate(str(self.name)))
+        goods = Product.objects.filter(slug__regex=r'^' + new_slug)
+        if not self.id:
+            if goods.count() == 0:
+                self.slug = new_slug
+            else:
+                self.slug = new_slug + '-' + str(goods.count())
+        super().save(*args, **kwargs)
 
 
 class Stock(models.Model):

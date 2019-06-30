@@ -2,8 +2,114 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68913212-e9bd-4d5d-918e-b33c779d57cb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/authapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/authapp/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authapp/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalogapp/management/commands/sync_products.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalogapp/migrations/0006_auto_20190624_0016.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/products/default.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jelezyaka.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/.browserslistrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/.eslintrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/.postcssrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/babel.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/public/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/public/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/public/img/vuetify-material-dashboard.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/public/img/vuetifylogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/src/components/core/Drawer.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/src/components/core/Filter.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/src/components/core/Footer.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/src/components/core/Toolbar.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/src/components/core/View.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/src/components/helper/Offset.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/src/components/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/src/components/material/Card.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/src/components/material/ChartCard.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/src/components/material/Notification.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/src/components/material/StatsCard.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/src/i18n/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/src/lang/en/Common.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/src/lang/en/Core/Footer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/src/lang/en/Core/Toolbar.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/src/lang/en/Home.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/src/lang/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/src/plugins/axios.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/src/plugins/chartist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/src/plugins/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/src/plugins/theme.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/src/plugins/vuetify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/src/router/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/src/router/paths.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/src/store/actions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/src/store/getters.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/src/store/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/src/store/modules/app/mutations.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/src/store/modules/app/state.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/src/store/modules/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/src/store/mutations.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/src/store/state.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/src/styles/index.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/src/styles/material-dashboard/_alerts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/src/styles/material-dashboard/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/src/styles/material-dashboard/_cards.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/src/styles/material-dashboard/_checkboxes.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/src/styles/material-dashboard/_colors.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/src/styles/material-dashboard/_dropdown.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/src/styles/material-dashboard/_fixed-plugin.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/src/styles/material-dashboard/_footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/src/styles/material-dashboard/_inputs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/src/styles/material-dashboard/_misc.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/src/styles/material-dashboard/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/src/styles/material-dashboard/_sidebar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/src/styles/material-dashboard/_tables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/src/styles/material-dashboard/_tabs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/src/styles/material-dashboard/_toolbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/src/styles/material-dashboard/_tooltips.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/src/styles/material-dashboard/_typography.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/src/styles/material-dashboard/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/src/utils/vuex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/src/views/Dashboard.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/src/views/Icons.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/src/views/Maps.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/src/views/Notifications.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/src/views/TableList.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/src/views/Typography.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/src/views/Upgrade.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/src/views/UserProfile.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/vue.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/vuetify-material-dashboard-master/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/materialize/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/materialize/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/materialize/css/materialize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/materialize/css/materialize.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/materialize/js/materialize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/materialize/js/materialize.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.less" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalogapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/catalogapp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalogapp/templates/catalogapp/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalogapp/templates/catalogapp/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalogapp/templates/catalogapp/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalogapp/templates/catalogapp/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalogapp/templates/catalogapp/product_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalogapp/templates/catalogapp/product_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalogapp/templates/catalogapp/product_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalogapp/templates/catalogapp/product_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalogapp/templatetags/catalog_templatetags.py" beforeDir="false" afterPath="$PROJECT_DIR$/catalogapp/templatetags/catalog_templatetags.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalogapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/catalogapp/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jelezyaka/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/jelezyaka/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jelezyaka/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/jelezyaka/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainapp/templates/mainapp/includes/inc__header.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/includes/inc__header.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +124,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/mainapp/templates/mainapp/base.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
+                <state relative-caret-position="312">
                   <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
                 </state>
               </provider>
@@ -27,11 +133,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/catalogapp/views.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="552">
-                  <caret line="30" column="52" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
-                  <folding>
-                    <element signature="e#0#54#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="816">
+                  <caret line="41" column="76" selection-start-line="41" selection-start-column="76" selection-end-line="41" selection-end-column="76" />
                 </state>
               </provider>
             </entry>
@@ -39,7 +142,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/catalogapp/forms.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="288">
+                <state relative-caret-position="264">
                   <caret line="12" column="63" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
                   <folding>
                     <element signature="e#0#24#0" expanded="true" />
@@ -48,11 +151,32 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/jelezyaka/settings.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="189">
-                  <caret line="34" column="26" lean-forward="true" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+                <state relative-caret-position="1080">
+                  <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/catalogapp/management/commands/sync_products.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="577">
+                  <caret line="103" column="47" selection-start-line="103" selection-start-column="47" selection-end-line="103" selection-end-column="47" />
+                  <folding>
+                    <element signature="e#0#65#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/.gitignore">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="48">
+                  <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
                 </state>
               </provider>
             </entry>
@@ -60,11 +184,17 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/authapp/models.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="384">
-                  <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-                  <folding>
-                    <element signature="e#0#28#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="552">
+                  <caret line="24" selection-start-line="24" selection-end-line="24" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/catalogapp/models.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1344">
+                  <caret line="58" column="35" selection-start-line="58" selection-start-column="35" selection-end-line="58" selection-end-column="35" />
                 </state>
               </provider>
             </entry>
@@ -91,11 +221,11 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/mainapp/templates/mainapp/includes/inc__header.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+                <state relative-caret-position="361">
+                  <caret line="62" column="25" selection-start-line="62" selection-start-column="25" selection-end-line="62" selection-end-column="25" />
                 </state>
               </provider>
             </entry>
@@ -121,8 +251,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/catalogapp/templates/catalogapp/product_detail.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="432">
-                  <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+                <state relative-caret-position="864">
+                  <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
                 </state>
               </provider>
             </entry>
@@ -130,20 +260,16 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/catalogapp/templates/catalogapp/product_list.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
+                <state relative-caret-position="240">
                   <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-                  <folding>
-                    <element signature="e#188#194#0" expanded="true" />
-                    <element signature="e#194#201#0" expanded="true" />
-                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/catalogapp/admin.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="432">
+                <state relative-caret-position="360">
                   <caret line="18" selection-start-line="18" selection-end-line="18" selection-end-column="29" />
                   <folding>
                     <element signature="e#0#32#0" expanded="true" />
@@ -155,20 +281,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assets/js/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
+                <state relative-caret-position="96">
                   <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/catalogapp/models.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1464">
-                  <caret line="62" column="45" selection-start-line="62" selection-start-column="45" selection-end-line="62" selection-end-column="45" />
-                  <folding>
-                    <element signature="e#0#28#0" expanded="true" />
-                  </folding>
                 </state>
               </provider>
             </entry>
@@ -250,8 +364,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-14" />
+    <option name="y" value="-10" />
     <option name="width" value="1936" />
     <option name="height" value="1066" />
   </component>
@@ -272,12 +386,20 @@
             <path>
               <item name="jelezyaka" type="b2602c69:ProjectViewProjectNode" />
               <item name="jelezyaka" type="462c0819:PsiDirectoryNode" />
-              <item name="authapp" type="462c0819:PsiDirectoryNode" />
+              <item name="catalogapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jelezyaka" type="b2602c69:ProjectViewProjectNode" />
               <item name="jelezyaka" type="462c0819:PsiDirectoryNode" />
+              <item name="catalogapp" type="462c0819:PsiDirectoryNode" />
+              <item name="management" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jelezyaka" type="b2602c69:ProjectViewProjectNode" />
               <item name="jelezyaka" type="462c0819:PsiDirectoryNode" />
+              <item name="catalogapp" type="462c0819:PsiDirectoryNode" />
+              <item name="management" type="462c0819:PsiDirectoryNode" />
+              <item name="commands" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -319,6 +441,31 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="jelezyaka" type="Python.DjangoServer" factoryName="Django server">
+      <module name="jelezyaka" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -337,16 +484,18 @@
       <workItem from="1560518065940" duration="8366000" />
       <workItem from="1560534085412" duration="1667000" />
       <workItem from="1560771622654" duration="142000" />
+      <workItem from="1561798569460" duration="7089000" />
+      <workItem from="1561873818862" duration="599000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60629000" />
+    <option name="totallyTimeSpent" value="68953000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18186666" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19253333" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -357,7 +506,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49973333" visible="true" weight="0.25137818" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49973333" visible="true" weight="0.24366042" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5002667" side_tool="true" weight="0.21168688" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
@@ -373,20 +522,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../dress_shop/mainapp/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../dress_shop/mainapp/templates/mainapp/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../dress_shop/mainapp/templates/mainapp/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -416,12 +551,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/style.css.map">
+      <provider editor-type-id="sourcemapFileViewerProvider" />
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="82" selection-start-column="82" selection-end-column="82" />
         </state>
       </provider>
-      <provider editor-type-id="sourcemapFileViewerProvider" />
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/plugins/fancybox/js/jquery.fancybox.min.js">
       <provider selected="true" editor-type-id="text-editor" />
@@ -484,17 +619,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalogapp/templates/catalogapp/product_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-          <folding>
-            <element signature="e#188#194#0" expanded="true" />
-            <element signature="e#194#201#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/formsapp/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
@@ -539,24 +663,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalogapp/templates/catalogapp/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="768">
-          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mainapp/context_processors.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/style.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29880">
-          <caret line="1245" column="1" selection-start-line="1245" selection-start-column="1" selection-end-line="1245" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -576,16 +686,6 @@
           <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalogapp/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="30" column="52" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#54#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -610,42 +710,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalogapp/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" selection-start-line="18" selection-end-line="18" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalogapp/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1464">
-          <caret line="62" column="45" selection-start-line="62" selection-start-column="45" selection-end-line="62" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jelezyaka/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalogapp/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="63" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -657,20 +727,6 @@
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalogapp/templates/catalogapp/product_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mainapp/templates/mainapp/includes/inc__header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -695,24 +751,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mainapp/templates/mainapp/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mainapp/templates/mainapp/includes/inc__footer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainapp/templates/mainapp/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalogapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="41" column="76" selection-start-line="41" selection-start-column="76" selection-end-line="41" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalogapp/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="63" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jelezyaka/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authapp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalogapp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1344">
+          <caret line="58" column="35" selection-start-line="58" selection-start-column="35" selection-end-line="58" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django/core/management/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4968">
+          <caret line="216" column="4" selection-start-line="216" selection-start-column="4" selection-end-line="216" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -723,27 +824,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/catalogapp/management/commands/sync_products.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" selection-start-column="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/authapp/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        <state relative-caret-position="577">
+          <caret line="103" column="47" selection-start-line="103" selection-start-column="47" selection-end-line="103" selection-end-column="47" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#0#65#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jelezyaka/settings.py">
+    <entry file="file://$PROJECT_DIR$/mainapp/templates/mainapp/includes/inc__header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="34" column="26" lean-forward="true" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+        <state relative-caret-position="361">
+          <caret line="62" column="25" selection-start-line="62" selection-start-column="25" selection-end-line="62" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalogapp/templates/catalogapp/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29880">
+          <caret line="1245" column="1" selection-start-line="1245" selection-start-column="1" selection-end-line="1245" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalogapp/templates/catalogapp/product_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalogapp/templates/catalogapp/product_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          <folding>
+            <element signature="e#188#194#0" expanded="true" />
+            <element signature="e#194#201#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalogapp/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" selection-start-line="18" selection-end-line="18" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
         </state>
       </provider>
     </entry>

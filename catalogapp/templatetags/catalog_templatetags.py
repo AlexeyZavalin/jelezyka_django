@@ -33,3 +33,9 @@ def price_format(value):
         whole_part = '{0:,.2f}'.format(float(whole_part)).replace(',', ' ')
         return whole_part
     return value
+
+
+@register.filter(name='uppercase')
+@stringfilter
+def uppercase(value):
+    return value.upper()
