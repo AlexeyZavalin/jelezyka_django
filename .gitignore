@@ -1,1 +1,5 @@
 db.sqlite3
+.idea
+.idea/workspace.xml
+**/__pycache__
+__pycache__
