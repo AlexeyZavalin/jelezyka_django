@@ -1,4 +1,6 @@
-db.sqlite3
-**/__pycache__
 .idea
 .idea/workspace.xml
+catalogapp/sync
+.vscode
+**/__pycache__
+db.sqlite3

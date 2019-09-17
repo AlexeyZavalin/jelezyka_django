@@ -1,9 +1,10 @@
 {% load mptt_tags %}
+{% load catalog_templatetags %}
 {% if location == 'header' %}
 <ul class="taxonomy-tree">
     {% recursetree catalog %}
     <li class="taxonomy-term">
-        <a href="{% url 'catalog:category-products' node.slug %}">{{ node.name }}</a>
+        <a href="{% url 'catalog:category-products' node.slug %}">{{ node.name|uppercase }}</a>
         {% if not node.is_leaf_node %}
         <ul class="taxonomy-tree">
             {{ children }}

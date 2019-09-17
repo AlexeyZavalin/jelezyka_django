@@ -33,7 +33,14 @@
     <title>Железяка &mdash; запчасти & сервис</title>
     {% endblock %}
 </head>
+{% if user.is_superuser %}
+<body class="admin">
+<div class="admin-menu">
+    <a href="/admin">Перейти в панель</a>
+</div>
+{% else %}
 <body>
+{% endif %}
 <div class="wrapper page">
     {% include 'mainapp/includes/inc__header.html' %}
     <main class="content">
