@@ -1,0 +1,1333 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Группы>
+	<Группа>
+		<PARENT_XML_ID/>
+		<XML_ID>01558</XML_ID>
+		<NAME>ЦИЛИНДР СЦЕПЛЕНИЯ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID/>
+		<XML_ID>02791</XML_ID>
+		<NAME>ВСЯЧИНА</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID/>
+		<XML_ID>03458</XML_ID>
+		<NAME>ХОДОВКА</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID/>
+		<XML_ID>04025</XML_ID>
+		<NAME>КОЛОДКИ ТОРМОЗНЫЕ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID/>
+		<XML_ID>06493</XML_ID>
+		<NAME>АВТОЗАПЧАСТИ (ДЛЯ ЗАКАЗОВ)</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID/>
+		<XML_ID>20281</XML_ID>
+		<NAME>АВТОХИМИЯ, АВТОКОСМЕТИКА, АВТОПРИНАДЛЕЖНОСТИ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID/>
+		<XML_ID>20282</XML_ID>
+		<NAME>_СОБСТВЕННЫЕ НУЖДЫ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID/>
+		<XML_ID>20286</XML_ID>
+		<NAME>ДАТЧИКИ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID/>
+		<XML_ID>20287</XML_ID>
+		<NAME>ЛАМПОЧКИ, ПРЕДОХРАНИТЕЛИ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID/>
+		<XML_ID>20288</XML_ID>
+		<NAME>СТАРТЕР, ГЕНЕРАТОР</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID/>
+		<XML_ID>20289</XML_ID>
+		<NAME>ПОДУШКА ДВИГАТЕЛЯ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID/>
+		<XML_ID>20290</XML_ID>
+		<NAME>ГРМ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID/>
+		<XML_ID>20291</XML_ID>
+		<NAME>ГОЛОВКА БЛОКА ЦИЛИНДРОВ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID/>
+		<XML_ID>20292</XML_ID>
+		<NAME>ДВИГАТЕЛЬ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID/>
+		<XML_ID>20293</XML_ID>
+		<NAME>МАСЛЯННАЯ СИСТЕМА</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID/>
+		<XML_ID>20294</XML_ID>
+		<NAME>ОХЛАЖДЕНИЕ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID/>
+		<XML_ID>20295</XML_ID>
+		<NAME>ТОПЛИВНАЯ СИСТЕМА</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID/>
+		<XML_ID>20296</XML_ID>
+		<NAME>ВЫХЛОПНАЯ СИСТЕМА</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID/>
+		<XML_ID>20297</XML_ID>
+		<NAME>ЗАЖИГАНИЕ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID/>
+		<XML_ID>20298</XML_ID>
+		<NAME>РЕМНИ ПРИВОДНЫЕ И РОЛИКИ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID/>
+		<XML_ID>20299</XML_ID>
+		<NAME>ТРАНСМИССИЯ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID/>
+		<XML_ID>20300</XML_ID>
+		<NAME>ПОДВЕСКА</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID/>
+		<XML_ID>20301</XML_ID>
+		<NAME>ТОРМОЗНАЯ СИСТЕМА</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID/>
+		<XML_ID>20302</XML_ID>
+		<NAME>ЦИЛИНДР ТОРМОЗНОЙ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID/>
+		<XML_ID>20303</XML_ID>
+		<NAME>РУЛЕВОЕ УПРАВЛЕНИЕ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID/>
+		<XML_ID>20304</XML_ID>
+		<NAME>ДЕТАЛИ КУЗОВА</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID/>
+		<XML_ID>20305</XML_ID>
+		<NAME>ФИЛЬТРА</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID/>
+		<XML_ID>20306</XML_ID>
+		<NAME>САЛЬНИКИ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID/>
+		<XML_ID>20307</XML_ID>
+		<NAME>КРЕПЕЖ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID/>
+		<XML_ID>24123</XML_ID>
+		<NAME>ГСМ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID/>
+		<XML_ID>26351</XML_ID>
+		<NAME>АЛТАНШИНА</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID/>
+		<XML_ID>26743</XML_ID>
+		<NAME>КОНСИГНАЦИЯ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID/>
+		<XML_ID>29956</XML_ID>
+		<NAME>КОМПЛЕКТЫ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID/>
+		<XML_ID>37027</XML_ID>
+		<NAME>УСЛУГИ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID/>
+		<XML_ID>38484</XML_ID>
+		<NAME>АВТОЗАПЧАСТИ (ДЛЯ АВТОСЕРВИСА)</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID/>
+		<XML_ID>38610</XML_ID>
+		<NAME>_НОВЫЙ ТОВАР</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>24123</PARENT_XML_ID>
+		<XML_ID>05996</XML_ID>
+		<NAME>МАСЛО МОТОРНОЕ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>24123</PARENT_XML_ID>
+		<XML_ID>20352</XML_ID>
+		<NAME>МАСЛО ТРАНСМИССИОННОЕ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>24123</PARENT_XML_ID>
+		<XML_ID>20353</XML_ID>
+		<NAME>МАСЛО ПРОМЫВОЧНОЕ, ПРИСАДКИ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>24123</PARENT_XML_ID>
+		<XML_ID>20354</XML_ID>
+		<NAME>жидкость ГУР</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>24123</PARENT_XML_ID>
+		<XML_ID>20355</XML_ID>
+		<NAME>жидкость ОХЛАЖДАЮЩАЯ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>24123</PARENT_XML_ID>
+		<XML_ID>20356</XML_ID>
+		<NAME>жидкость ТОРМОЗНАЯ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>24123</PARENT_XML_ID>
+		<XML_ID>20357</XML_ID>
+		<NAME>СМАЗКА ПЛАСТИЧНАЯ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>24123</PARENT_XML_ID>
+		<XML_ID>20359</XML_ID>
+		<NAME>жидкость СТЕКЛООМЫВАТЕЛЯ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>26351</PARENT_XML_ID>
+		<XML_ID>26352</XML_ID>
+		<NAME>ЛЕТО</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>26351</PARENT_XML_ID>
+		<XML_ID>26353</XML_ID>
+		<NAME>ЗИМА</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>26351</PARENT_XML_ID>
+		<XML_ID>26671</XML_ID>
+		<NAME>ДИСКИ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>26743</PARENT_XML_ID>
+		<XML_ID>26589</XML_ID>
+		<NAME>ЗЕРКАЛО</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>01558</PARENT_XML_ID>
+		<XML_ID>02919</XML_ID>
+		<NAME>РЕМ КОМПЛЕКТ ЦИЛИНДРА СЦЕПЛЕНИЯ ГЛАВНОГО</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>01558</PARENT_XML_ID>
+		<XML_ID>04003</XML_ID>
+		<NAME>ЦИЛИНДР СЦЕПЛЕНИЯ ГЛАВНЫЙ В СБОРЕ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>01558</PARENT_XML_ID>
+		<XML_ID>02918</XML_ID>
+		<NAME>РЕМ КОМПЛЕКТ ЦИЛИНДРА СЦЕПЛЕНИЯ РАБОЧЕГО</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>01558</PARENT_XML_ID>
+		<XML_ID>02920</XML_ID>
+		<NAME>ЦИЛИНДР СЦЕПЛЕНИЯ РАБОЧИЙ В СБОРЕ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>03458</PARENT_XML_ID>
+		<XML_ID>01917</XML_ID>
+		<NAME>ПЫЛЬНИК FB</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>03458</PARENT_XML_ID>
+		<XML_ID>01918</XML_ID>
+		<NAME>ПЫЛЬНИК RP</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>03458</PARENT_XML_ID>
+		<XML_ID>03181</XML_ID>
+		<NAME>ВТУЛКА МАЯТНИКА</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>03458</PARENT_XML_ID>
+		<XML_ID>03461</XML_ID>
+		<NAME>ТЯГА РУЛЕВАЯ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>03458</PARENT_XML_ID>
+		<XML_ID>05906</XML_ID>
+		<NAME>МАЯТНИК</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>03458</PARENT_XML_ID>
+		<XML_ID>09190</XML_ID>
+		<NAME>ТЯГА ПОДВЕСКИ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>03458</PARENT_XML_ID>
+		<XML_ID>03762</XML_ID>
+		<NAME>ПЫЛЬНИК ХОДОВКИ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>03458</PARENT_XML_ID>
+		<XML_ID>04401</XML_ID>
+		<NAME>ГАЙКА</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>03458</PARENT_XML_ID>
+		<XML_ID>04544</XML_ID>
+		<NAME>ШПИЛЬКА</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>03458</PARENT_XML_ID>
+		<XML_ID>06789</XML_ID>
+		<NAME>ШАЙБА</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>03458</PARENT_XML_ID>
+		<XML_ID>03459</XML_ID>
+		<NAME>НАКОНЕЧНИК РУЛЕВОЙ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>03458</PARENT_XML_ID>
+		<XML_ID>03462</XML_ID>
+		<NAME>РЫЧАГ ПОДВЕСКИ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>03458</PARENT_XML_ID>
+		<XML_ID>03460</XML_ID>
+		<NAME>ШАРОВАЯ ОПОРА</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20281</PARENT_XML_ID>
+		<XML_ID>04212</XML_ID>
+		<NAME>АКСЕССУАРЫ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20281</PARENT_XML_ID>
+		<XML_ID>14313</XML_ID>
+		<NAME>ЩЕТКИ СТЕКЛООЧИСТИТЕЛЯ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20281</PARENT_XML_ID>
+		<XML_ID>14779</XML_ID>
+		<NAME>ГЕРМЕТИК</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20281</PARENT_XML_ID>
+		<XML_ID>17881</XML_ID>
+		<NAME>АККУМУЛЯТОРЫ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20281</PARENT_XML_ID>
+		<XML_ID>20504</XML_ID>
+		<NAME>АРОМАТИЗАТОРЫ, ОСВЕЖИТЕЛИ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20281</PARENT_XML_ID>
+		<XML_ID>20345</XML_ID>
+		<NAME>ГУБКИ, ТРЯПКИ, САЛФЕТКИ, КИСТИ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20281</PARENT_XML_ID>
+		<XML_ID>20346</XML_ID>
+		<NAME>ОЧИСТИТЕЛИ, ШАМПУНИ, ПОЛИРОЛИ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20281</PARENT_XML_ID>
+		<XML_ID>20347</XML_ID>
+		<NAME>ЩЕТКИ, СКРЕБКИ, ЛОПАТЫ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20281</PARENT_XML_ID>
+		<XML_ID>20348</XML_ID>
+		<NAME>БАТАРЕЙКИ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20281</PARENT_XML_ID>
+		<XML_ID>20349</XML_ID>
+		<NAME>ТРОСЫ БУКСИРОВОЧНЫЕ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20281</PARENT_XML_ID>
+		<XML_ID>20350</XML_ID>
+		<NAME>РАМКИ НОМЕРА, КРЕПЛЕНИЯ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20281</PARENT_XML_ID>
+		<XML_ID>20351</XML_ID>
+		<NAME>ИНСТРУМЕНТ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20281</PARENT_XML_ID>
+		<XML_ID>20360</XML_ID>
+		<NAME>КОМПРЕССОРЫ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20281</PARENT_XML_ID>
+		<XML_ID>39525</XML_ID>
+		<NAME>ПРИСАДКИ, ПРОМЫВКИ, ОЧИСТИТЕЛИ ДВС</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20281</PARENT_XML_ID>
+		<XML_ID>24742</XML_ID>
+		<NAME>ДОМКРАТЫ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20281</PARENT_XML_ID>
+		<XML_ID>24744</XML_ID>
+		<NAME>ШИНОРЕМОНТ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20281</PARENT_XML_ID>
+		<XML_ID>24749</XML_ID>
+		<NAME>ПЕРЧАТКИ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20281</PARENT_XML_ID>
+		<XML_ID>24759</XML_ID>
+		<NAME>АПТЕЧКИ, ЗНАКИ АВАРИЙНОЙ ОСТАНОВКИ, ОГНЕТУШИТЕЛИ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20281</PARENT_XML_ID>
+		<XML_ID>40055</XML_ID>
+		<NAME>ШЛАНГИ ТОПЛИВНЫЕ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20282</PARENT_XML_ID>
+		<XML_ID>38620</XML_ID>
+		<NAME>АВТОСЕРВИС</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20286</PARENT_XML_ID>
+		<XML_ID>01046</XML_ID>
+		<NAME>ДАТЧИК МАСЛА</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20286</PARENT_XML_ID>
+		<XML_ID>07009</XML_ID>
+		<NAME>ДАТЧИК РАСХОДА ВОЗДУХА</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20286</PARENT_XML_ID>
+		<XML_ID>08583</XML_ID>
+		<NAME>ДАТЧИК ПОЛОЖЕНИЯ КОЛЕНВАЛА</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20286</PARENT_XML_ID>
+		<XML_ID>08587</XML_ID>
+		<NAME>ДАТЧИК ДРОСЕЛЬНОЙ ЗАСЛОНКИ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20286</PARENT_XML_ID>
+		<XML_ID>08848</XML_ID>
+		<NAME>ДАТЧИК КИСЛОРОДА</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20286</PARENT_XML_ID>
+		<XML_ID>13068</XML_ID>
+		<NAME>ДАТЧИК ABS</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20286</PARENT_XML_ID>
+		<XML_ID>14015</XML_ID>
+		<NAME>ДАТЧИК ТЕМПЕРАТУРЫ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20286</PARENT_XML_ID>
+		<XML_ID>20562</XML_ID>
+		<NAME>ДАТЧИК ОБОРОТОВ ВАЛА КОРОБКИ ПЕРЕДАЧ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20286</PARENT_XML_ID>
+		<XML_ID>20563</XML_ID>
+		<NAME>ДАТЧИК ВОДЫ В ТОПЛИВНОМ ФИЛЬТРЕ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20286</PARENT_XML_ID>
+		<XML_ID>20564</XML_ID>
+		<NAME>ДАТЧИК ВКЛЮЧЕНИЯ МОСТА</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20286</PARENT_XML_ID>
+		<XML_ID>20762</XML_ID>
+		<NAME>ДАТЧИК СКОРОСТИ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20287</PARENT_XML_ID>
+		<XML_ID>03683</XML_ID>
+		<NAME>ЛАМПОЧКА</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20287</PARENT_XML_ID>
+		<XML_ID>13099</XML_ID>
+		<NAME>ПРЕДОХРАНИТЕЛЬ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20288</PARENT_XML_ID>
+		<XML_ID>01321</XML_ID>
+		<NAME>СТАРТЕР ДВИГАТЕЛЯ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20288</PARENT_XML_ID>
+		<XML_ID>02261</XML_ID>
+		<NAME>БЕНДИКС</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20288</PARENT_XML_ID>
+		<XML_ID>02750</XML_ID>
+		<NAME>ГЕНЕРАТОР</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20288</PARENT_XML_ID>
+		<XML_ID>03485</XML_ID>
+		<NAME>ЩЕТКА ГЕНЕРАТОРА</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20288</PARENT_XML_ID>
+		<XML_ID>04760</XML_ID>
+		<NAME>КЛЕММА СТАРТЕРА</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20288</PARENT_XML_ID>
+		<XML_ID>05005</XML_ID>
+		<NAME>ЩЁТКИ СТАРТЕРА</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20288</PARENT_XML_ID>
+		<XML_ID>07608</XML_ID>
+		<NAME>РЕГУЛЯТОР ТНВД</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20288</PARENT_XML_ID>
+		<XML_ID>13059</XML_ID>
+		<NAME>МОТОРЧИК ПЕЧКИ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20288</PARENT_XML_ID>
+		<XML_ID>13142</XML_ID>
+		<NAME>КЛАПАН  ХОЛОСТОГО  ХОДА</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20288</PARENT_XML_ID>
+		<XML_ID>13694</XML_ID>
+		<NAME>РЕЛЕ СТАРТЕРА ВТЯГИВАЮЩЕЕ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20290</PARENT_XML_ID>
+		<XML_ID>00083</XML_ID>
+		<NAME>РЕМЕНЬ ГАЗОРАСПРЕДЕЛЕНИЯ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20290</PARENT_XML_ID>
+		<XML_ID>01366</XML_ID>
+		<NAME>РЕМ КОМПЛЕКТ ЦЕПНОЙ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20290</PARENT_XML_ID>
+		<XML_ID>01664</XML_ID>
+		<NAME>ПОДШИПНИК ГРМ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20290</PARENT_XML_ID>
+		<XML_ID>07710</XML_ID>
+		<NAME>ШЕСТЕРНЯ КОЛЕНВАЛА</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20290</PARENT_XML_ID>
+		<XML_ID>20439</XML_ID>
+		<NAME>ШАЙБА КЛАПАНА РЕГУЛИРОВОЧНАЯ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20290</PARENT_XML_ID>
+		<XML_ID>20767</XML_ID>
+		<NAME>ПРОКЛАДКА ЛОБОВИНЫ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20291</PARENT_XML_ID>
+		<XML_ID>00529</XML_ID>
+		<NAME>КЛАПАНЫ ВПУСКНЫЕ/ВЫПУСКНЫЕ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20291</PARENT_XML_ID>
+		<XML_ID>01326</XML_ID>
+		<NAME>НАПРАВЛЯЮЩАЯ КЛАПАНА</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20291</PARENT_XML_ID>
+		<XML_ID>02149</XML_ID>
+		<NAME>ПРОКЛАДКА КЛАПАННОЙ КРЫШКИ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20291</PARENT_XML_ID>
+		<XML_ID>02938</XML_ID>
+		<NAME>ВКЛАДЫШИ РАСПРЕДВАЛА</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20291</PARENT_XML_ID>
+		<XML_ID>03711</XML_ID>
+		<NAME>КОЛПАЧКИ МАСЛОСЪЁМНЫЕ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20291</PARENT_XML_ID>
+		<XML_ID>06302</XML_ID>
+		<NAME>КРЫШКА КЛАПАННАЯ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20291</PARENT_XML_ID>
+		<XML_ID>06304</XML_ID>
+		<NAME>ВТУЛКА КЛАПАННОЙ КРЫШКИ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20291</PARENT_XML_ID>
+		<XML_ID>07108</XML_ID>
+		<NAME>ЗАГЛУШКА ГОЛОВКИ БЛОКА</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20291</PARENT_XML_ID>
+		<XML_ID>12984</XML_ID>
+		<NAME>БОЛТ ГОЛОВКИ БЛОКА ЦИЛИНДРОВ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20292</PARENT_XML_ID>
+		<XML_ID>00425</XML_ID>
+		<NAME>ПОРШЕНЬ ДВИГАТЕЛЯ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20292</PARENT_XML_ID>
+		<XML_ID>00006</XML_ID>
+		<NAME>РЕМ КОМПЛЕКТ ДВИГАТЕЛЯ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20292</PARENT_XML_ID>
+		<XML_ID>00303</XML_ID>
+		<NAME>ПРОКЛАДКА БЛОКА</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20292</PARENT_XML_ID>
+		<XML_ID>00637</XML_ID>
+		<NAME>ВКЛАДЫШИ M</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20292</PARENT_XML_ID>
+		<XML_ID>00638</XML_ID>
+		<NAME>ВКЛАДЫШИ R</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20292</PARENT_XML_ID>
+		<XML_ID>01120</XML_ID>
+		<NAME>ГИЛЬЗА ДВИГАТЕЛЯ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20292</PARENT_XML_ID>
+		<XML_ID>01386</XML_ID>
+		<NAME>ВТУЛКА ПОРШНЯ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20292</PARENT_XML_ID>
+		<XML_ID>02489</XML_ID>
+		<NAME>КОЛЬЦА ПОРШНЕВЫЕ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20292</PARENT_XML_ID>
+		<XML_ID>03167</XML_ID>
+		<NAME>ПОЛУКОЛЬЦА</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20292</PARENT_XML_ID>
+		<XML_ID>05925</XML_ID>
+		<NAME>ПРОКЛАДКА ГИЛЬЗЫ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20292</PARENT_XML_ID>
+		<XML_ID>06724</XML_ID>
+		<NAME>ШКИВЫ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20292</PARENT_XML_ID>
+		<XML_ID>17147</XML_ID>
+		<NAME>ШАТУН</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20292</PARENT_XML_ID>
+		<XML_ID>17149</XML_ID>
+		<NAME>ЗАГЛУШКА ДВС</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20292</PARENT_XML_ID>
+		<XML_ID>18974</XML_ID>
+		<NAME>ШПОНКА</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20293</PARENT_XML_ID>
+		<XML_ID>01559</XML_ID>
+		<NAME>МАСЛЯНЫЙ НАСОС</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20293</PARENT_XML_ID>
+		<XML_ID>03304</XML_ID>
+		<NAME>ПРОКЛАДКА МАСЛО-НАСОСА</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20293</PARENT_XML_ID>
+		<XML_ID>08314</XML_ID>
+		<NAME>КЛАПАН КАРТЕРА</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20293</PARENT_XML_ID>
+		<XML_ID>08804</XML_ID>
+		<NAME>ПРОКЛАДКА ПОДДОНА</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20293</PARENT_XML_ID>
+		<XML_ID>10768</XML_ID>
+		<NAME>ПРОБКА, ПРОКЛАДКА ПРОБКИ ДЛЯ СЛИВА МАСЛА</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20293</PARENT_XML_ID>
+		<XML_ID>13424</XML_ID>
+		<NAME>КРЫШКА МАСЛОЗАЛИВНОЙ ГОРЛОВИНЫ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20293</PARENT_XML_ID>
+		<XML_ID>20768</XML_ID>
+		<NAME>ПРОКЛАДКА МАСЛООХЛАДИТЕЛЯ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20293</PARENT_XML_ID>
+		<XML_ID>22503</XML_ID>
+		<NAME>ЩУП МАСЛЯНЫЙ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20294</PARENT_XML_ID>
+		<XML_ID>02607</XML_ID>
+		<NAME>ПОМПА ВОДЯНАЯ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20294</PARENT_XML_ID>
+		<XML_ID>03060</XML_ID>
+		<NAME>ТЕРМОСТАТ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20294</PARENT_XML_ID>
+		<XML_ID>03387</XML_ID>
+		<NAME>КРЫШКА РАДИАТОРА</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20294</PARENT_XML_ID>
+		<XML_ID>03912</XML_ID>
+		<NAME>ВЕНТИЛЯТОР ПОМПЫ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20294</PARENT_XML_ID>
+		<XML_ID>04155</XML_ID>
+		<NAME>ОБГОННАЯ МУФТА ВЕНТИЛЯТОРА</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20294</PARENT_XML_ID>
+		<XML_ID>04759</XML_ID>
+		<NAME>ПРОКЛАДКА ТЕРМОСТАТА.</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20294</PARENT_XML_ID>
+		<XML_ID>11764</XML_ID>
+		<NAME>РАДИАТОР ДВИГАТЕЛЯ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20294</PARENT_XML_ID>
+		<XML_ID>17151</XML_ID>
+		<NAME>КРОНШТЕЙН ТЕРМОМУФТЫ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20294</PARENT_XML_ID>
+		<XML_ID>20428</XML_ID>
+		<NAME>ПОДУШКА РАДИАТОРА</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20295</PARENT_XML_ID>
+		<XML_ID>01050</XML_ID>
+		<NAME>РАСПЫЛИТЕЛЬ ФОРСУНКИ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20295</PARENT_XML_ID>
+		<XML_ID>01397</XML_ID>
+		<NAME>ПЛУНЖЕР ТНВД</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20295</PARENT_XML_ID>
+		<XML_ID>01561</XML_ID>
+		<NAME>ПОДКАЧКА ТОПЛИВА</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20295</PARENT_XML_ID>
+		<XML_ID>01606</XML_ID>
+		<NAME>БЕНЗОНАСОС</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20295</PARENT_XML_ID>
+		<XML_ID>02139</XML_ID>
+		<NAME>ТРУБКА ОБРАТКИ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20295</PARENT_XML_ID>
+		<XML_ID>02898</XML_ID>
+		<NAME>РЕМ КОМПЛЕКТ КАРБЮРАТОРА</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20295</PARENT_XML_ID>
+		<XML_ID>03163</XML_ID>
+		<NAME>ШАЙБА ОБРАТКИ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20295</PARENT_XML_ID>
+		<XML_ID>03198</XML_ID>
+		<NAME>РЕМ КОМПЛЕКТ ТНВД</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20295</PARENT_XML_ID>
+		<XML_ID>03211</XML_ID>
+		<NAME>ЭЛЕКТРО - МАГНИТНЫЙ КЛАПАН</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20295</PARENT_XML_ID>
+		<XML_ID>03400</XML_ID>
+		<NAME>БЕНЗОНАСОС НИЗКОГО ДАВЛЕНИЯ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20295</PARENT_XML_ID>
+		<XML_ID>04995</XML_ID>
+		<NAME>ШАЙБА РАСПЫЛИТЕЛЯ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20295</PARENT_XML_ID>
+		<XML_ID>04997</XML_ID>
+		<NAME>БЕНЗОНАСОС ПОГРУЖНОЙ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20295</PARENT_XML_ID>
+		<XML_ID>08291</XML_ID>
+		<NAME>КЛАПАН ТНВД</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20295</PARENT_XML_ID>
+		<XML_ID>08496</XML_ID>
+		<NAME>ШАЙБА КУЛАЧКОВАЯ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20295</PARENT_XML_ID>
+		<XML_ID>20763</XML_ID>
+		<NAME>ПРОКЛАДКА ТОПЛИВНОГО НАСОСА</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20296</PARENT_XML_ID>
+		<XML_ID>03064</XML_ID>
+		<NAME>КОЛЬЦО ГЛУШИТЕЛЯ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20296</PARENT_XML_ID>
+		<XML_ID>04064</XML_ID>
+		<NAME>КОЛЛЕКТОР ВЫХЛОПНОЙ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20296</PARENT_XML_ID>
+		<XML_ID>04400</XML_ID>
+		<NAME>ПАТРУБОК ВОЗДУШНОГО ФИЛЬТРА</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20296</PARENT_XML_ID>
+		<XML_ID>05844</XML_ID>
+		<NAME>КРЕПЛЕНИЕ ГЛУШИТЕЛЯ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20296</PARENT_XML_ID>
+		<XML_ID>06490</XML_ID>
+		<NAME>ПРОКЛАДКА КОЛЛЕКТОРА ВПУСКНОГО ВЫПУСКНОГО</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20296</PARENT_XML_ID>
+		<XML_ID>20431</XML_ID>
+		<NAME>ПРОКЛАДКА ДРОССЕЛЬНОЙ ЗАСЛОНКИ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20296</PARENT_XML_ID>
+		<XML_ID>20565</XML_ID>
+		<NAME>ПРОКЛАДКА КЛАПАНА ХОЛОСТОГО ХОДА</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20296</PARENT_XML_ID>
+		<XML_ID>20765</XML_ID>
+		<NAME>ПРОКЛАДКА ТУРБИНЫ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20296</PARENT_XML_ID>
+		<XML_ID>34041</XML_ID>
+		<NAME>ПРОКЛАДКА КЛАПАНА EGR</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20297</PARENT_XML_ID>
+		<XML_ID>01024</XML_ID>
+		<NAME>КРЫШКА ТРАМБЛЁРА</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20297</PARENT_XML_ID>
+		<XML_ID>01563</XML_ID>
+		<NAME>ПРОВОДА</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20297</PARENT_XML_ID>
+		<XML_ID>02273</XML_ID>
+		<NAME>СВЕЧА НАКАЛА HKT</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20297</PARENT_XML_ID>
+		<XML_ID>02831</XML_ID>
+		<NAME>КОНТАКТ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20297</PARENT_XML_ID>
+		<XML_ID>02973</XML_ID>
+		<NAME>БЕГУНОК</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20297</PARENT_XML_ID>
+		<XML_ID>03726</XML_ID>
+		<NAME>СВЕЧА ЗАЖИГАНИЯ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20297</PARENT_XML_ID>
+		<XML_ID>03898</XML_ID>
+		<NAME>УПЛОТНИТЕЛЬНОЕ КОЛЬЦО ТРАМБЛЕРА</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20297</PARENT_XML_ID>
+		<XML_ID>06197</XML_ID>
+		<NAME>КАТУШКА ЗАЖИГАНИЯ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20298</PARENT_XML_ID>
+		<XML_ID>00053</XML_ID>
+		<NAME>РЕМЕНЬ РУЧЕЙКОВЫЙ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20298</PARENT_XML_ID>
+		<XML_ID>07701</XML_ID>
+		<NAME>РЕМЕНЬ КЛИНОВЫЙ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20298</PARENT_XML_ID>
+		<XML_ID>08164</XML_ID>
+		<NAME>НАТЯЖНОЙ РОЛИК НАВЕСНОГО ОБОРУДОВАНИЯ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20299</PARENT_XML_ID>
+		<XML_ID>01556</XML_ID>
+		<NAME>ДИСК СЦЕПЛЕНИЯ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20299</PARENT_XML_ID>
+		<XML_ID>01557</XML_ID>
+		<NAME>КОРЗИНА СЦЕПЛЕНИЯ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20299</PARENT_XML_ID>
+		<XML_ID>01560</XML_ID>
+		<NAME>ПОДШИПНИК ПОДВЕСНОЙ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20299</PARENT_XML_ID>
+		<XML_ID>01562</XML_ID>
+		<NAME>ПРИВОД</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20299</PARENT_XML_ID>
+		<XML_ID>01608</XML_ID>
+		<NAME>КРЕСТОВИНА</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20299</PARENT_XML_ID>
+		<XML_ID>01663</XML_ID>
+		<NAME>ПОДШИПНИК СТУПИЦЫ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20299</PARENT_XML_ID>
+		<XML_ID>01665</XML_ID>
+		<NAME>ПОДШИПНИК ВЫЖИМНОЙ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20299</PARENT_XML_ID>
+		<XML_ID>03343</XML_ID>
+		<NAME>РЕМ КОМПЛЕКТ СТУПИЦЫ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20299</PARENT_XML_ID>
+		<XML_ID>03374</XML_ID>
+		<NAME>ВТУЛКА СТУПИЦЫ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20299</PARENT_XML_ID>
+		<XML_ID>03953</XML_ID>
+		<NAME>МУФТА ВКЛЮЧЕНИЯ МОСТА</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20299</PARENT_XML_ID>
+		<XML_ID>04208</XML_ID>
+		<NAME>РЕМ КОМПЛЕКТ ПРИВОДА ВАЛА</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20299</PARENT_XML_ID>
+		<XML_ID>05305</XML_ID>
+		<NAME>ВИЛКА СЦЕПЛЕНИЯ, ПЫЛЬНИК ВИЛКИ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20299</PARENT_XML_ID>
+		<XML_ID>06797</XML_ID>
+		<NAME>ПОЛУОСЬ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20299</PARENT_XML_ID>
+		<XML_ID>08954</XML_ID>
+		<NAME>ФЛАНЕЦ СТУПИЦЫ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20299</PARENT_XML_ID>
+		<XML_ID>12358</XML_ID>
+		<NAME>ТРОС</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20299</PARENT_XML_ID>
+		<XML_ID>13031</XML_ID>
+		<NAME>КАРДАННЫЙ ВАЛ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20299</PARENT_XML_ID>
+		<XML_ID>17150</XML_ID>
+		<NAME>ТОРСИОН</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20299</PARENT_XML_ID>
+		<XML_ID>20382</XML_ID>
+		<NAME>ПОДУШКА РЕДУКТОРА</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20299</PARENT_XML_ID>
+		<XML_ID>20432</XML_ID>
+		<NAME>ПРОКЛАДКА ДИФФЕРЕНЦИАЛА</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20300</PARENT_XML_ID>
+		<XML_ID>01847</XML_ID>
+		<NAME>ШКВОРНИ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20300</PARENT_XML_ID>
+		<XML_ID>02144</XML_ID>
+		<NAME>ЧАШКА СТОЙКИ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20300</PARENT_XML_ID>
+		<XML_ID>03463</XML_ID>
+		<NAME>СТАБИЛИЗАТОР</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20300</PARENT_XML_ID>
+		<XML_ID>04238</XML_ID>
+		<NAME>ВТУЛКА СТАБИЛИЗАТОРА</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20300</PARENT_XML_ID>
+		<XML_ID>04287</XML_ID>
+		<NAME>ВТУЛКА LINKA</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20300</PARENT_XML_ID>
+		<XML_ID>04294</XML_ID>
+		<NAME>ВТУЛКА РЕССОРЫ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20300</PARENT_XML_ID>
+		<XML_ID>04346</XML_ID>
+		<NAME>САЙЛЕНТБЛОК</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20300</PARENT_XML_ID>
+		<XML_ID>04745</XML_ID>
+		<NAME>ВТУЛКА РЕАКТИВНОЙ ТЯГИ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20300</PARENT_XML_ID>
+		<XML_ID>05020</XML_ID>
+		<NAME>ВТУЛКА АМОРТИЗАТОРА</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20300</PARENT_XML_ID>
+		<XML_ID>05381</XML_ID>
+		<NAME>ЭКСЦЕНТРИК</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20300</PARENT_XML_ID>
+		<XML_ID>05560</XML_ID>
+		<NAME>ВТУЛКА САЙЛЕНТБЛОКА</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20300</PARENT_XML_ID>
+		<XML_ID>07519</XML_ID>
+		<NAME>АМОРТИЗАТОР</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20300</PARENT_XML_ID>
+		<XML_ID>08178</XML_ID>
+		<NAME>ПЫЛЬНИК + ОТБОЙНИК  АМОРТИЗАТОРА</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20300</PARENT_XML_ID>
+		<XML_ID>09315</XML_ID>
+		<NAME>КУЛАК ПОВОРОТНЫЙ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20300</PARENT_XML_ID>
+		<XML_ID>09318</XML_ID>
+		<NAME>ПРОКЛАДКА ФЛАНЦА СТУПИЦЫ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20300</PARENT_XML_ID>
+		<XML_ID>20358</XML_ID>
+		<NAME>ПОДУШКА КУЗОВА</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20300</PARENT_XML_ID>
+		<XML_ID>20766</XML_ID>
+		<NAME>ПРОСТАВКА ПОД ПРУЖИНУ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20301</PARENT_XML_ID>
+		<XML_ID>04529</XML_ID>
+		<NAME>ШЛАНГ ТОРМОЗНОЙ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20301</PARENT_XML_ID>
+		<XML_ID>04596</XML_ID>
+		<NAME>СУППОРТ ТОРМОЗНОЙ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20301</PARENT_XML_ID>
+		<XML_ID>08793</XML_ID>
+		<NAME>ДИСК ТОРМОЗНОЙ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20301</PARENT_XML_ID>
+		<XML_ID>09708</XML_ID>
+		<NAME>ПОРШЕНЬ ТОРМОЗНОЙ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20301</PARENT_XML_ID>
+		<XML_ID>17152</XML_ID>
+		<NAME>НАПРАВЛЯЮЩАЯ СУППОРТА ТОРМОЗНОГО</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20302</PARENT_XML_ID>
+		<XML_ID>01658</XML_ID>
+		<NAME>РЕМ КОМПЛЕКТ ЦИЛИНДРА ТОРМОЗНОГО ГЛАВНОГО</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20302</PARENT_XML_ID>
+		<XML_ID>03184</XML_ID>
+		<NAME>МАНЖЕТА ЦИЛИНДРА ТОРМОЗНОГО РАБОЧЕГО</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20302</PARENT_XML_ID>
+		<XML_ID>05091</XML_ID>
+		<NAME>ЦИЛИНДР ТОРМОЗНОЙ ГЛАВНЫЙ В СБОРЕ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20302</PARENT_XML_ID>
+		<XML_ID>01662</XML_ID>
+		<NAME>РЕМ КОМПЛЕКТ ЦИЛИНДРА ТОРМОЗНОГО РАБОЧЕГО</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20302</PARENT_XML_ID>
+		<XML_ID>02932</XML_ID>
+		<NAME>ЦИЛИНДР ТОРМОЗНОЙ РАБОЧИЙ В СБОРЕ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20303</PARENT_XML_ID>
+		<XML_ID>03123</XML_ID>
+		<NAME>РЕМ КОМПЛЕКТ НАСОСА Г/У</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20303</PARENT_XML_ID>
+		<XML_ID>06820</XML_ID>
+		<NAME>ВТУЛКА РУЛЕВОЙ РЕЙКИ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20303</PARENT_XML_ID>
+		<XML_ID>08814</XML_ID>
+		<NAME>РЕЙКА РУЛЕВАЯ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20303</PARENT_XML_ID>
+		<XML_ID>09311</XML_ID>
+		<NAME>РЕМ КОМПЛЕКТ РУЛЕВОЙ РЕЙКИ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20303</PARENT_XML_ID>
+		<XML_ID>13034</XML_ID>
+		<NAME>НАСОС ГИДРОУСИЛИТЕЛЯ РУЛЯ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20303</PARENT_XML_ID>
+		<XML_ID>13056</XML_ID>
+		<NAME>ШЛАНГ ГУРа</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20303</PARENT_XML_ID>
+		<XML_ID>14089</XML_ID>
+		<NAME>ДЕМФЕР РУЛЕВОГО МЕХАНИЗМА</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20303</PARENT_XML_ID>
+		<XML_ID>20761</XML_ID>
+		<NAME>ЛЕПЕСТОК РУЛЕВОЙ РЕЙКИ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20304</PARENT_XML_ID>
+		<XML_ID>06312</XML_ID>
+		<NAME>РУЧКА ДВЕРИ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20304</PARENT_XML_ID>
+		<XML_ID>17153</XML_ID>
+		<NAME>ШТОК АНТЕННЫ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20305</PARENT_XML_ID>
+		<XML_ID>03474</XML_ID>
+		<NAME>ФИЛЬТР АВТОМАТА</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20305</PARENT_XML_ID>
+		<XML_ID>04615</XML_ID>
+		<NAME>ФИЛЬТР МАСЛЯНЫЙ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20305</PARENT_XML_ID>
+		<XML_ID>06980</XML_ID>
+		<NAME>ФИЛЬТР ТОПЛИВНЫЙ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20305</PARENT_XML_ID>
+		<XML_ID>07030</XML_ID>
+		<NAME>ФИЛЬТР ВОЗДУШНЫЙ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20305</PARENT_XML_ID>
+		<XML_ID>11177</XML_ID>
+		<NAME>ФИЛЬТР САЛОННЫЙ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20305</PARENT_XML_ID>
+		<XML_ID>20438</XML_ID>
+		<NAME>КРЫШКА КОРПУСА МАСЛЯННОГО ФИЛЬТРА</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20305</PARENT_XML_ID>
+		<XML_ID>30140</XML_ID>
+		<NAME>ФИЛЬТР МАСЛЯНОГО КАНАЛА  VTEC</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20306</PARENT_XML_ID>
+		<XML_ID>20371</XML_ID>
+		<NAME>КОЛЬЦО УПЛОТНИТЕЛЬНОЕ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20306</PARENT_XML_ID>
+		<XML_ID>20437</XML_ID>
+		<NAME>САЛЬНИК ТНВД</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20307</PARENT_XML_ID>
+		<XML_ID>17148</XML_ID>
+		<NAME>КЛИПСА КРЕПЁЖНАЯ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20307</PARENT_XML_ID>
+		<XML_ID>20370</XML_ID>
+		<NAME>БОЛТЫ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>20504</PARENT_XML_ID>
+		<XML_ID>39654</XML_ID>
+		<NAME>ПРОБНИКИ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>38620</PARENT_XML_ID>
+		<XML_ID>38621</XML_ID>
+		<NAME>ОСНОВНЫЕ СРЕДСТВА</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>38620</PARENT_XML_ID>
+		<XML_ID>38622</XML_ID>
+		<NAME>МАТЕРИАЛЫ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>38620</PARENT_XML_ID>
+		<XML_ID>39001</XML_ID>
+		<NAME>Услуги</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>01366</PARENT_XML_ID>
+		<XML_ID>01661</XML_ID>
+		<NAME>УСПОКОИТЕЛЬ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>01366</PARENT_XML_ID>
+		<XML_ID>01881</XML_ID>
+		<NAME>РЕМ КОМПЛЕКТ ЦЕПНОЙ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>01366</PARENT_XML_ID>
+		<XML_ID>03425</XML_ID>
+		<NAME>ЗВЕЗДА ГРМ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>01366</PARENT_XML_ID>
+		<XML_ID>01660</XML_ID>
+		<NAME>НАТЯЖИТЕЛЬ ЦЕПИ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>01366</PARENT_XML_ID>
+		<XML_ID>01659</XML_ID>
+		<NAME>ЦЕПЬ</NAME>
+	</Группа>
+	<Группа>
+		<PARENT_XML_ID>01366</PARENT_XML_ID>
+		<XML_ID>23407</XML_ID>
+		<NAME>ПРОКЛАДКА НАТЯЖИТЕЛЯ ЦЕПИ</NAME>
+	</Группа>
+</Группы>

@@ -7,7 +7,12 @@
         <div class="col-lg-3">
             {{ min }}&nbsp;&mdash;&nbsp;{{ max }}
             {% catalog_list 'sidebar' 0 cid %}
-            <form action="" method="get"></form>
+            <form action="" method="get">
+                {% for item in filter.form %}
+                    {{ item }}
+                {% endfor %}
+                <input type="submit" value="Применить">
+            </form>
         </div>
         <div class="col-lg-9">
             <div class="catalog">
